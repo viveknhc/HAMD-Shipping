@@ -1,0 +1,42 @@
+{% load static %}
+<section id="top-bar">
+	<div class="thm-container clearfix">
+		<div class="phone pull-left">
+			<p>Call Us Now: <span>+971 6 742 4297</span></p>
+		</div>
+		<div class="top-contact-info pull-right">
+			<ul>
+				<li><i class="fa fa-map-marker"></i>PO BOX 4422,AJMAN,UAE DUBAI OFFICE:. AIRPORT FREEZONE DUBAI</li>
+				<li><i class="fa fa-envelope"></i>  info@hamdshipping.com</li>
+			</ul>
+
+            
+		</div>
+	</div>
+</section>
+
+<header id="header3" class="stricky">
+	<div class="thm-container clearfix">
+		<div class="logo pull-left">
+			<a href="index.html">
+				<img src="{% static 'images/logo.svg' %}" alt="">
+			</a>
+		</div>
+		<div class="nav-holder pull-right">
+			<div class="nav-header">
+				<button><i class="fa fa-bars"></i></button>
+			</div>
+			<div class="nav-footer">
+                
+				<ul class="nav">
+					<li><a href="{% url 'web:index' %}">Home</a></li>
+					<li><a href="{% url 'web:service' %}">Service</a></li>
+                    <li><a href="contact.html">Category</a></li>
+					<li><a href="contact.html">Gallery</a></li>
+                    <li><a href="{% url 'web:about' %}">About</a></li>
+					<li><a href="{% url 'web:contact' %}">contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
