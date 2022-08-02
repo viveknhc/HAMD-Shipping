@@ -1,41 +1,39 @@
 {% extends 'web/partials/base.html' %}
 {% load static %}
 {% block content %}
-
-<section class="text-rotator-banner thm-banner-wrapper style-two" style="background-image: url(../../static/images/slider/Banner.jpg);background-position: center left;">
+{% for banner in banner|slice:":1" %}
+<section class="text-rotator-banner thm-banner-wrapper style-two" style="background-image: url({{ banner.Banner_image.url }});background-position: center left;">
 	<div class="thm-container">
 		<div class="col-lg-6 col-md-8 pull-right caption-wrapper">
 			<div class="caption-h1">
 				We are 
 				<div class="type-wrap">
                 	<div class="typed-strings">
-                    	<p>Logistic</p>
-                        <p>frieght</p>
-                        <p>warehouse</p>
-                        <p>transport</p>
-                        <p>deliver</p>
+                    	<p>{{ banner.Banner_title }}</p>
+                        
                     </div>
                     <span class="typed"></span>
                 </div><br>network company
 			</div>
 			<span class="horiz-border"></span>
 			<div class="caption-p">
-				Lorem ipsum dolor sit amet, consectetur adipiscelit, sed do eiusmod tempor incididunt ut labore et dolore.
+				{{ banner.Banner_description}}
 			</div>
 		</div>
 	</div>
 </section>
+
 <section class="welcome-text">
 	<div class="thm-container">
 		<div class="title-box text-right">
-			<h3>We offer <br>Different Services</h3>
+			<h3>We offer <br></h3>
 		</div>
 		<div class="text-box">
-			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur<br>	 sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Consect<br> petur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+			<p></p>
 		</div>
 	</div>
 </section>
-
+{% endfor %}
 <section class="welcome-services">
 	<div class="thm-container">
 		<div class="row">
@@ -103,7 +101,7 @@
 		<div class="row">
 			<div class="col-md-7 hidden-xs hidden-sm">
 				<div class="right-full-image">
-					<img src="" alt="Awesome Image"/>
+					<img src="{% static 'images/call-to-action/1.png' %}" alt="Awesome Image"/>
 				</div>
 			</div>
 			<div class="col-md-5">
@@ -193,8 +191,9 @@
 
 <section class="faq-section sec-padding">
 	<div class="thm-container">
+		{% for about in about %}
 		<div class="row">
-			<div class="col-lg-8 col-md-8">
+			<div class="col-lg-12 col-md-12">
 				<div class="sec-title">
 					<h2><span>some of our core values</span></h2>
 				</div>
@@ -203,14 +202,15 @@
 						<div class="accrodion-title">
 							<h4>Our Mission</h4>
 						</div>
+
 						<div class="accrodion-content">
 							<div class="img-caption">
 								<div class="img-box">
-									<img src="images/accrodion/1.jpg" alt="Awesome Image"/>
+									<img src="/media/{{ about.mission_image }}" alt="Awesome Image"/>
 								</div>
 								<div class="content-box">
-									<h4>Our Delivery is all our our country</h4>
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehen- derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									
+									<p>{{ about.mission_description }}</p>
 									<ul>
 										<li><i class="fa fa-long-arrow-right"></i> Adipis civelit</li>
 										<li><i class="fa fa-long-arrow-right"></i> Adipis civelit</li>
@@ -218,6 +218,7 @@
 								</div>
 							</div>
 						</div>
+
 					</div>
 					<div class="accrodion ">
 						<div class="accrodion-title">
@@ -226,11 +227,11 @@
 						<div class="accrodion-content">
 							<div class="img-caption">
 								<div class="img-box">
-									<img src="images/accrodion/1.jpg" alt="Awesome Image"/>
+									<img src="/media/{{ about.vision_image }}" alt="Awesome Image"/>
 								</div>
 								<div class="content-box">
-									<h4>Our Delivery is all our our country</h4>
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehen- derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+								
+									<p>{{ about.vision_description }}</p>
 									<ul>
 										<li><i class="fa fa-long-arrow-right"></i> Adipis civelit</li>
 										<li><i class="fa fa-long-arrow-right"></i> Adipis civelit</li>
@@ -246,11 +247,11 @@
 						<div class="accrodion-content">
 							<div class="img-caption">
 								<div class="img-box">
-									<img src="images/accrodion/1.jpg" alt="Awesome Image"/>
+									<img src="/media/{{ about.About_img }}" alt="Awesome Image"/>
 								</div>
 								<div class="content-box">
-									<h4>Our Delivery is all our our country</h4>
-									<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehen- derit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+									
+									<p>{{ about.about }}</p>
 									<ul>
 										<li><i class="fa fa-long-arrow-right"></i> Adipis civelit</li>
 										<li><i class="fa fa-long-arrow-right"></i> Adipis civelit</li>
@@ -261,17 +262,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-lg-4 col-md-4">
-				<div class="sec-title">
-					<h2><span>Our locations</span></h2>
-				</div>
-				<div class="view-location">
-					<img src="images/view-location.png" alt="Awesome Image"/>
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia non numquam eius modi.</p>
-					<a href="#">view our locations</a>
-				</div>
-			</div>
+			
 		</div>
+	{% endfor %}
 	</div>
 </section>
 
@@ -284,8 +277,12 @@
 				<div class="sec-title">
 					<h2><span>Testimonials</span></h2>
 				</div>
+
+
 				<div class="testimonial-box with-carousel">
 					<div class="owl-carousel owl-theme">
+
+						{% for testimonial in testimonial %}
 						<div class="item">
 							<div class="content-box">
 								<div class="top">
@@ -293,67 +290,19 @@
 										“							
 									</div>
 									<div class="title">
-										<h3>Logic Cargo is Great Firm</h3>
+										
 									</div>
 								</div>						
 								<div class="content">							
-									<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia non qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum </p>
-									<span>Michale John (CEO & Founder)</span>
-									<img src="images/testimonials/1.png" alt="">
+									<p>{{ testimonial.quote }}</p>
+									<span>{{ testimonial.person }}( {{ testimonial.post }} )</span>
+									<img src="/media/{{ testimonial.person_img }}" alt="">
 								</div>
 							</div>
 						</div>
-						<div class="item">
-							<div class="content-box">
-								<div class="top">
-									<div class="qoute-box">
-										“							
-									</div>
-									<div class="title">
-										<h3>Logic Cargo is Great Firm</h3>
-									</div>
-								</div>						
-								<div class="content">							
-									<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia non qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum </p>
-									<span>Michale John (CEO & Founder)</span>
-									<img src="images/testimonials/2.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="content-box">
-								<div class="top">
-									<div class="qoute-box">
-										“							
-									</div>
-									<div class="title">
-										<h3>Logic Cargo is Great Firm</h3>
-									</div>
-								</div>						
-								<div class="content">							
-									<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia non qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum </p>
-									<span>Michale John (CEO & Founder)</span>
-									<img src="images/testimonials/3.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="content-box">
-								<div class="top">
-									<div class="qoute-box">
-										“							
-									</div>
-									<div class="title">
-										<h3>Logic Cargo is Great Firm</h3>
-									</div>
-								</div>						
-								<div class="content">							
-									<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia non qui dolorem ipsum quia dolor sit amet, consectetur, adipis civelit sed quia numquam eius modi. Neque porro quisquam est, qui dolorem ipsum </p>
-									<span>Michale John (CEO & Founder)</span>
-									<img src="images/testimonials/1.png" alt="">
-								</div>
-							</div>
-						</div>
+						
+						{% endfor %}
+						
 					</div>
 				</div>
 			</div>

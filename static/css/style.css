@@ -82,6 +82,7 @@ body {
 }
 img {
   max-width: 100%;
+ 
 }
 a,
 a:hover,
@@ -391,7 +392,7 @@ li {
   margin-top: 10px;
 }
 .accrodion .accrodion-content .img-caption .content-box p {
-  color: #898989;
+  color: #000000;
 }
 .accrodion .accrodion-content .img-caption .content-box ul {
   margin-top: 3px;
@@ -1358,7 +1359,7 @@ li {
 
 
 .call-to-action {
-  background: #1c3a53 url(../images/call-to-action/bg.jpg) center left no-repeat;
+  background: #1c3a53 url(../images/call-to-action/bg.png) center left no-repeat;
   background-size: cover;
 }
 .call-to-action .right-full-image {
@@ -1367,6 +1368,7 @@ li {
 .call-to-action .right-full-image img {
   position: relative;
   top: 75px;
+  width: 454px;
 }
 .call-to-action .call-to-action-text {
   padding-top: 71px;
@@ -1917,7 +1919,7 @@ li {
   content: '';
   width: 40px;
   height: 2px;
-  background: #F7BE3D;
+  background: #1ab5b6;
   display: block;
   margin-top: 13px;
 }
@@ -3327,7 +3329,7 @@ li {
 .text-rotator-banner span.horiz-border {
   width: 120px;
   height: 2px;
-  background: #FBB12F;
+  background: #27b5b6;
   display: inline-block;
   margin-top: 28px;
   margin-bottom: 20px;

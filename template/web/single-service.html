@@ -3,10 +3,10 @@
 {% block content %}
 <section class="inner-banner">
 	<div class="thm-container">
-		<h2>Single Services</h2>
+		<h2>{{single_service.service_title}}</h2>
 		<ul class="breadcumb">
 			<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-			<li><span>Single Services</span></li>
+			<li><span>{{single_service.service_title}}</span></li>
 		</ul>
 	</div>
 </section>
@@ -15,256 +15,19 @@
 <section class="sec-padding single-service-page">
 	<div class="thm-container">
 		<div class="row">
-			<div class="col-md-4 pull-left">
-				<div class="single-sidebar-widget">
-					<div class="special-links">
-						<ul>
-							<li class="active" data-tab-name="ocean"><a href="#ocean" aria-controls="ocean" role="tab" data-toggle="tab">Ocean Freight</a></li>
-							<li data-tab-name="air"><a href="#air" aria-controls="air" role="tab" data-toggle="tab">Air Freight</a></li>
-							<li data-tab-name="cargo"><a href="#cargo" aria-controls="cargo" role="tab" data-toggle="tab">Cargo Express</a></li>
-							<li data-tab-name="logistics"><a href="#logistics" aria-controls="logistics" role="tab" data-toggle="tab">Logistics</a></li>
-							<li data-tab-name="warehousing"><a href="#warehousing" aria-controls="warehousing" role="tab" data-toggle="tab">Warehousing</a></li>
-							<li data-tab-name="brokerage"><a href="#brokerage" aria-controls="brokerage" role="tab" data-toggle="tab">Custom Brokerage</a></li>
-							<li data-tab-name="consulting"><a href="#consulting" aria-controls="consulting" role="tab" data-toggle="tab">Consulting Services</a></li>
-						</ul>
-					</div>					
-				</div>
-				<div class="single-sidebar-widget">
-					<div class="sec-title">
-						<h2><span>Download brochure</span></h2>
-					</div>
-					<div class="dwnld-broucher">
-						<img src="images/dwnld-broucher.png" alt="Awesome Image"/>
-						<a href="#">download as pdf &nbsp;&nbsp;<i class="fa fa-long-arrow-right"></i></a>	
-					</div>					
-				</div>
-			</div>
-			<div class="col-md-8 pull-right tab-content">
+			<div class="col-md-12 pull-right tab-content">
 				<div class="tab-pane fade in active" id="ocean">
 					<div class="image-box clearfix">
-						<img src="images/services/single-service-1.jpg" alt="Awesome Image"/>
-						<img src="images/services/single-service-2.jpg" alt="Awesome Image" class="pull-right" />
+						<img src="{{single_service.service_image.url}}" alt="Awesome Image"/>
+						<img src="{{single_service.service_image.url}}" alt="Awesome Image" class="pull-right" />
 					</div>
 					<div class="sec-title">
-						<h2><span>Ocean Freight</span></h2>
-						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-						<p>Naqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+						<h2><span>{{single_service.service_title}}</span></h2>
+						<p>{{single_service.service_description|safe}}</p>
+						
 					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>Market Strategy</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-3.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>We ship all over word</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-4.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
+					
 				</div>
-				<div class="tab-pane fade" id="air">
-					<div class="image-box clearfix">
-						<img src="images/services/single-service-1.jpg" alt="Awesome Image"/>
-						<img src="images/services/single-service-2.jpg" alt="Awesome Image" class="pull-right" />
-					</div>
-					<div class="sec-title">
-						<h2><span>Air Freight</span></h2>
-						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-						<p>Naqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>Market Strategy</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-3.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>We ship all over word</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-4.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="cargo">
-					<div class="image-box clearfix">
-						<img src="images/services/single-service-1.jpg" alt="Awesome Image"/>
-						<img src="images/services/single-service-2.jpg" alt="Awesome Image" class="pull-right" />
-					</div>
-					<div class="sec-title">
-						<h2><span>Cargo Express</span></h2>
-						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-						<p>Naqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>Market Strategy</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-3.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>We ship all over word</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-4.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="logistics">
-					<div class="image-box clearfix">
-						<img src="images/services/single-service-1.jpg" alt="Awesome Image"/>
-						<img src="images/services/single-service-2.jpg" alt="Awesome Image" class="pull-right" />
-					</div>
-					<div class="sec-title">
-						<h2><span>Logistics</span></h2>
-						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-						<p>Naqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>Market Strategy</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-3.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>We ship all over word</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-4.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="warehousing">
-					<div class="image-box clearfix">
-						<img src="images/services/single-service-1.jpg" alt="Awesome Image"/>
-						<img src="images/services/single-service-2.jpg" alt="Awesome Image" class="pull-right" />
-					</div>
-					<div class="sec-title">
-						<h2><span>warehousing</span></h2>
-						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-						<p>Naqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>Market Strategy</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-3.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>We ship all over word</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-4.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="brokerage">
-					<div class="image-box clearfix">
-						<img src="images/services/single-service-1.jpg" alt="Awesome Image"/>
-						<img src="images/services/single-service-2.jpg" alt="Awesome Image" class="pull-right" />
-					</div>
-					<div class="sec-title">
-						<h2><span>Custom Brokerage</span></h2>
-						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-						<p>Naqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>Market Strategy</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-3.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>We ship all over word</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-4.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-				</div>
-				<div class="tab-pane fade" id="consulting">
-					<div class="image-box clearfix">
-						<img src="images/services/single-service-1.jpg" alt="Awesome Image"/>
-						<img src="images/services/single-service-2.jpg" alt="Awesome Image" class="pull-right" />
-					</div>
-					<div class="sec-title">
-						<h2><span>Consulting Services</span></h2>
-						<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-						<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
-						<p>Naqui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>Market Strategy</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-3.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-					<div class="image-caption-box">
-						<div class="text-box">
-							<h2>We ship all over word</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius mod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-						</div>
-						<div class="caption-box-img">
-							<img src="images/services/single-service-4.jpg" alt="Awesome Image"/>
-						</div>
-					</div>
-				</div>
-				
 			</div>
 		</div>
 	</div>

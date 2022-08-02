@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    
+    'versatileimagefield',
+    'tinymce',
     'web',
 ]
 
@@ -65,6 +66,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                "web.context_processors.main_context",
             ],
         },
     },
@@ -130,3 +132,25 @@ STATIC_ROOT = BASE_DIR / "assets"
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+VERSATILEIMAGEFIELD_SETTINGS = {
+ 
+    'cache_length': 2592000,
+    
+    'cache_name': 'versatileimagefield_cache',
+   
+    'jpeg_resize_quality': 70,
+    
+    'sized_directory_name': '__sized__',
+    
+    'filtered_directory_name': '__filtered__',
+   
+    'placeholder_directory_name': '__placeholder__',
+    
+    'create_images_on_demand': True,
+   
+    'image_key_post_processor': None,
+    
+    'progressive_jpeg': False
+}
