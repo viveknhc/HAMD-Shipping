@@ -1,0 +1,1405 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2022-08-02T05:19:38.713Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Ajmal",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2022-08-02T05:23:58.204Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Hrshin",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2022-08-02T05:49:34.888Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "1",
+            "object_repr": "Banner object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2022-08-02T05:51:58.837Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "2",
+            "object_repr": "Banner object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2022-08-02T06:24:58.145Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Banner object (3)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2022-08-02T08:23:27.724Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Hamd Shipping is a logistics company located in the United Arab Emirates. We truly believe that, our customers deserve more transparency,no hidden charges and more flexible approach while dealing with",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2022-08-02T08:25:22.176Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "1",
+            "object_repr": "Hamd Shipping is a logistics company located in the United Arab Emirates. We truly believe that, our customers deserve more transparency,no hidden charges and more flexible approach while dealing with",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2022-08-02T08:26:39.510Z",
+            "user": 1,
+            "content_type": 9,
+            "object_id": "2",
+            "object_repr": "Hamd Shipping is a logistics company located in the United Arab Emirates. We truly believe that, our customers deserve more transparency,no hidden charges and more flexible approach while dealing with",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2022-08-02T08:36:14.024Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "1",
+            "object_repr": "Clients object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2022-08-02T08:36:20.897Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "2",
+            "object_repr": "Clients object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2022-08-02T08:36:26.485Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "3",
+            "object_repr": "Clients object (3)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2022-08-02T08:36:36.316Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "4",
+            "object_repr": "Clients object (4)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2022-08-02T08:36:41.586Z",
+            "user": 1,
+            "content_type": 11,
+            "object_id": "5",
+            "object_repr": "Clients object (5)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2022-08-02T09:31:54.433Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Service object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2022-08-02T09:51:42.047Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Service object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Service image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2022-08-02T09:54:27.130Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Service object (2)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2022-08-02T09:55:13.335Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Service object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Service image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2022-08-02T10:00:41.629Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "Service object (3)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2022-08-02T10:04:35.176Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "Service object (4)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2022-08-02T10:07:03.337Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "Service object (5)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2022-08-02T10:20:54.053Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "Service object (5)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Summery content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2022-08-02T10:31:29.966Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Service object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Summery content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2022-08-02T10:32:09.848Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "Service object (2)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Summery content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2022-08-02T10:33:00.783Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "Service object (3)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Summery content\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2022-08-02T11:03:06.785Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "Service object (1)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Service description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2022-08-02T11:04:51.319Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "SEA FREIGHT",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Service description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2022-08-02T11:17:13.626Z",
+            "user": 1,
+            "content_type": 10,
+            "object_id": "1",
+            "object_repr": "Address object (1)",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2022-08-03T05:32:46.242Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "abcd",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2022-08-03T05:34:19.358Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Banner object (3)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Banner description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2022-08-03T05:35:52.908Z",
+            "user": 1,
+            "content_type": 7,
+            "object_id": "3",
+            "object_repr": "Banner object (3)",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Banner title\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2022-08-03T06:06:00.159Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Ajmal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Post\", \"Quote\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2022-08-03T06:06:18.284Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "joseph",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2022-08-03T06:06:45.076Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Ajmal",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Post\", \"Quote\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2022-08-03T06:07:23.217Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "Vinod",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2022-08-03T06:08:00.447Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "2",
+            "object_repr": "Ann maria",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2022-08-03T06:08:14.619Z",
+            "user": 1,
+            "content_type": 8,
+            "object_id": "1",
+            "object_repr": "Supriya",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2022-08-03T06:14:52.137Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "fdgdfg",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2022-08-03T06:14:59.896Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "fsdds",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2022-08-03T06:15:07.112Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "Example",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 40,
+        "fields": {
+            "action_time": "2022-08-03T06:34:47.023Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "AIR FREIGHT",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Service image2\", \"Service image3\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 41,
+        "fields": {
+            "action_time": "2022-08-03T06:41:21.982Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "AIR FREIGHT",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Service description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 42,
+        "fields": {
+            "action_time": "2022-08-03T07:17:25.997Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "2",
+            "object_repr": "AIR FREIGHT",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Service image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 43,
+        "fields": {
+            "action_time": "2022-08-03T07:18:15.857Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "1",
+            "object_repr": "SEA FREIGHT",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Service image\", \"Service description\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 44,
+        "fields": {
+            "action_time": "2022-08-03T07:21:41.589Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "3",
+            "object_repr": "REEFER CONTAINER EXPORT",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 45,
+        "fields": {
+            "action_time": "2022-08-03T07:23:54.527Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "4",
+            "object_repr": "AUTOMOBILE LOADING",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 46,
+        "fields": {
+            "action_time": "2022-08-03T07:26:53.648Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "5",
+            "object_repr": "CUSTOMS CLEARANCE",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 47,
+        "fields": {
+            "action_time": "2022-08-03T07:34:41.017Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "6",
+            "object_repr": "EXPRESS COURIER",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 48,
+        "fields": {
+            "action_time": "2022-08-03T07:36:19.141Z",
+            "user": 1,
+            "content_type": 12,
+            "object_id": "7",
+            "object_repr": "CROSS TRADE SHIPMENT",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 1,
+        "fields": {
+            "name": "Can add log entry",
+            "content_type": 1,
+            "codename": "add_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 2,
+        "fields": {
+            "name": "Can change log entry",
+            "content_type": 1,
+            "codename": "change_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 3,
+        "fields": {
+            "name": "Can delete log entry",
+            "content_type": 1,
+            "codename": "delete_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 4,
+        "fields": {
+            "name": "Can view log entry",
+            "content_type": 1,
+            "codename": "view_logentry"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 5,
+        "fields": {
+            "name": "Can add permission",
+            "content_type": 2,
+            "codename": "add_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 6,
+        "fields": {
+            "name": "Can change permission",
+            "content_type": 2,
+            "codename": "change_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 7,
+        "fields": {
+            "name": "Can delete permission",
+            "content_type": 2,
+            "codename": "delete_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 8,
+        "fields": {
+            "name": "Can view permission",
+            "content_type": 2,
+            "codename": "view_permission"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 9,
+        "fields": {
+            "name": "Can add group",
+            "content_type": 3,
+            "codename": "add_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 10,
+        "fields": {
+            "name": "Can change group",
+            "content_type": 3,
+            "codename": "change_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 11,
+        "fields": {
+            "name": "Can delete group",
+            "content_type": 3,
+            "codename": "delete_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 12,
+        "fields": {
+            "name": "Can view group",
+            "content_type": 3,
+            "codename": "view_group"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 13,
+        "fields": {
+            "name": "Can add user",
+            "content_type": 4,
+            "codename": "add_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 14,
+        "fields": {
+            "name": "Can change user",
+            "content_type": 4,
+            "codename": "change_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 15,
+        "fields": {
+            "name": "Can delete user",
+            "content_type": 4,
+            "codename": "delete_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 16,
+        "fields": {
+            "name": "Can view user",
+            "content_type": 4,
+            "codename": "view_user"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 17,
+        "fields": {
+            "name": "Can add content type",
+            "content_type": 5,
+            "codename": "add_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 18,
+        "fields": {
+            "name": "Can change content type",
+            "content_type": 5,
+            "codename": "change_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 19,
+        "fields": {
+            "name": "Can delete content type",
+            "content_type": 5,
+            "codename": "delete_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 20,
+        "fields": {
+            "name": "Can view content type",
+            "content_type": 5,
+            "codename": "view_contenttype"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 21,
+        "fields": {
+            "name": "Can add session",
+            "content_type": 6,
+            "codename": "add_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 22,
+        "fields": {
+            "name": "Can change session",
+            "content_type": 6,
+            "codename": "change_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 23,
+        "fields": {
+            "name": "Can delete session",
+            "content_type": 6,
+            "codename": "delete_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 24,
+        "fields": {
+            "name": "Can view session",
+            "content_type": 6,
+            "codename": "view_session"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 25,
+        "fields": {
+            "name": "Can add banner",
+            "content_type": 7,
+            "codename": "add_banner"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 26,
+        "fields": {
+            "name": "Can change banner",
+            "content_type": 7,
+            "codename": "change_banner"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 27,
+        "fields": {
+            "name": "Can delete banner",
+            "content_type": 7,
+            "codename": "delete_banner"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 28,
+        "fields": {
+            "name": "Can view banner",
+            "content_type": 7,
+            "codename": "view_banner"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 29,
+        "fields": {
+            "name": "Can add testimonial",
+            "content_type": 8,
+            "codename": "add_testimonial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 30,
+        "fields": {
+            "name": "Can change testimonial",
+            "content_type": 8,
+            "codename": "change_testimonial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 31,
+        "fields": {
+            "name": "Can delete testimonial",
+            "content_type": 8,
+            "codename": "delete_testimonial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 32,
+        "fields": {
+            "name": "Can view testimonial",
+            "content_type": 8,
+            "codename": "view_testimonial"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 33,
+        "fields": {
+            "name": "Can add about",
+            "content_type": 9,
+            "codename": "add_about"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 34,
+        "fields": {
+            "name": "Can change about",
+            "content_type": 9,
+            "codename": "change_about"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 35,
+        "fields": {
+            "name": "Can delete about",
+            "content_type": 9,
+            "codename": "delete_about"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 36,
+        "fields": {
+            "name": "Can view about",
+            "content_type": 9,
+            "codename": "view_about"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 37,
+        "fields": {
+            "name": "Can add address",
+            "content_type": 10,
+            "codename": "add_address"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 38,
+        "fields": {
+            "name": "Can change address",
+            "content_type": 10,
+            "codename": "change_address"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 39,
+        "fields": {
+            "name": "Can delete address",
+            "content_type": 10,
+            "codename": "delete_address"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 40,
+        "fields": {
+            "name": "Can view address",
+            "content_type": 10,
+            "codename": "view_address"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 41,
+        "fields": {
+            "name": "Can add clients",
+            "content_type": 11,
+            "codename": "add_clients"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 42,
+        "fields": {
+            "name": "Can change clients",
+            "content_type": 11,
+            "codename": "change_clients"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 43,
+        "fields": {
+            "name": "Can delete clients",
+            "content_type": 11,
+            "codename": "delete_clients"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 44,
+        "fields": {
+            "name": "Can view clients",
+            "content_type": 11,
+            "codename": "view_clients"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 45,
+        "fields": {
+            "name": "Can add service",
+            "content_type": 12,
+            "codename": "add_service"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 46,
+        "fields": {
+            "name": "Can change service",
+            "content_type": 12,
+            "codename": "change_service"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 47,
+        "fields": {
+            "name": "Can delete service",
+            "content_type": 12,
+            "codename": "delete_service"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 48,
+        "fields": {
+            "name": "Can view service",
+            "content_type": 12,
+            "codename": "view_service"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 49,
+        "fields": {
+            "name": "Can add contact",
+            "content_type": 13,
+            "codename": "add_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 50,
+        "fields": {
+            "name": "Can change contact",
+            "content_type": 13,
+            "codename": "change_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 51,
+        "fields": {
+            "name": "Can delete contact",
+            "content_type": 13,
+            "codename": "delete_contact"
+        }
+    },
+    {
+        "model": "auth.permission",
+        "pk": 52,
+        "fields": {
+            "name": "Can view contact",
+            "content_type": 13,
+            "codename": "view_contact"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$320000$UTv5od7hWqfojVSMZeofO5$RG7W1kfDkZTIg4w/KU9xI2O6FXckO5DtkXUuBCWJ3E0=",
+            "last_login": "2022-08-02T09:58:23.109Z",
+            "is_superuser": true,
+            "username": "admin",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-08-02T05:10:43.596Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 1,
+        "fields": {
+            "app_label": "admin",
+            "model": "logentry"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 2,
+        "fields": {
+            "app_label": "auth",
+            "model": "permission"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 3,
+        "fields": {
+            "app_label": "auth",
+            "model": "group"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 4,
+        "fields": {
+            "app_label": "auth",
+            "model": "user"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 5,
+        "fields": {
+            "app_label": "contenttypes",
+            "model": "contenttype"
+        }
+    },
+    {
+        "model": "contenttypes.contenttype",
+        "pk": 6,
+        "fields": {
+            "app_label": "sessions",
+            "model": "session"
+        }
+    },
+    
+    
+    {
+        "model": "sessions.session",
+        "pk": "g1jea99ugkypus38akblh79jqcko0s6h",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGlk23vWHkj5nsNY_HEC2FCcV4u4QKQW0b2bei3na1uq3kRc_J3Zhkp1-t0DxkdsO0p3arfPY27rMge8KP-jgU0_5eT3cv4NKo35rUQjPpEFqsJnQFpOcMSqCE0kWAZBRIQQszgA5JYRDlbSxUgEUi5K9P8DbNmg:1oIofP:R7HedsHVlijWRjuv2gnHRX9Uv7WFK7-BBHmrrdy7DlQ",
+            "expire_date": "2022-08-16T09:58:23.116Z"
+        }
+    },
+    {
+        "model": "web.banner",
+        "pk": 1,
+        "fields": {
+            "Banner_image": "banner/Banner.jpg",
+            "Banner_title": "1",
+            "Banner_description": "1"
+        }
+    },
+    {
+        "model": "web.banner",
+        "pk": 2,
+        "fields": {
+            "Banner_image": "banner/6.jpg",
+            "Banner_title": "1",
+            "Banner_description": "1"
+        }
+    },
+    {
+        "model": "web.banner",
+        "pk": 3,
+        "fields": {
+            "Banner_image": "banner/3.jpg",
+            "Banner_title": "LOGISTICS",
+            "Banner_description": "Your reliable shipping partner."
+        }
+    },
+    {
+        "model": "web.testimonial",
+        "pk": 1,
+        "fields": {
+            "person": "Supriya",
+            "post": "Poffessor",
+            "quote": "I would recommend using HAMD Shipping for any of your shipping needs.",
+            "person_img": "testimonial/4.png"
+        }
+    },
+    {
+        "model": "web.testimonial",
+        "pk": 2,
+        "fields": {
+            "person": "Ann maria",
+            "post": "Developer",
+            "quote": "Customs clearance and delivery are handled smoothly and efficiently by HAMD Shipping.",
+            "person_img": "testimonial/2.png"
+        }
+    },
+    {
+        "model": "web.testimonial",
+        "pk": 3,
+        "fields": {
+            "person": "Vinod",
+            "post": "Doctor",
+            "quote": "Outstanding service, professional, timely, and communicative. They work seamlessly. Always been my first choice.",
+            "person_img": "testimonial/single-service-4.jpg"
+        }
+    },
+    {
+        "model": "web.about",
+        "pk": 2,
+        "fields": {
+            "vision_description": "Our vision is to make global trade accessible for anyone who wants to explore new opportunities. We believe in transparent transactions and restoring values in business",
+            "vision_image": "about/123_txxRRwx.jpg",
+            "mission_description": "We strive to achieve successful partnership with our clients and partners. We facilitate global trade more easier and hassle free for the people who support our system.",
+            "mission_image": "about/123_JSL01Pr.jpg",
+            "about": "Hamd Shipping is a logistics company located in the United Arab Emirates. We truly believe that, our customers deserve more transparency,no hidden charges and more flexible approach while dealing with their freight forwarder. Driven by highly experienced professionals in the industry who finds passion in what they do, you may count on us for a seamless shipping experience",
+            "About_img": "about/123_uOGCCL7.jpg"
+        }
+    },
+    {
+        "model": "web.clients",
+        "pk": 1,
+        "fields": {
+            "client_image": "client/ONE.jpg"
+        }
+    },
+    {
+        "model": "web.clients",
+        "pk": 2,
+        "fields": {
+            "client_image": "client/MSC.jpg"
+        }
+    },
+    {
+        "model": "web.clients",
+        "pk": 3,
+        "fields": {
+            "client_image": "client/MAERSK.jpg"
+        }
+    },
+    {
+        "model": "web.clients",
+        "pk": 4,
+        "fields": {
+            "client_image": "client/HAPAGE.jpg"
+        }
+    },
+    {
+        "model": "web.clients",
+        "pk": 5,
+        "fields": {
+            "client_image": "client/CMA-CGM.jpg"
+        }
+    },
+    {
+        "model": "web.service",
+        "pk": 1,
+        "fields": {
+            "service_image": "service/Sea_freight.jpg",
+            "service_title": "SEA FREIGHT",
+            "service_description": "<p style=\"text-align: justify;\">Sea Freight is the ultimate choice for large / heavy and bulky international shipments such as food stuff, earth mineral,<br />petroleum merchandise, automotive products, garments, industrial structures and electronic goods. Customers areopting for Sea Freight shipments for their logistical needsdue to its affordability. HAMD recognizes this trend and offers<br />a full range of ocean freight services under one roof. Ourstrong business relationship with major shipping lines,enable us to provide our customers, priority access tospace without paying premium rates. HAMD Customerswill also benefit from flexible service at short notice,competitive pricing and quality service.</p>\r\n<p><strong>Our Sea Freight services include</strong></p>\r\n<ul>\r\n<li>FCL &ndash; NVOCC services from major ports around the world.</li>\r\n<li>LCL - service between major ports worldwide.</li>\r\n<li>Multiple Supplier Consolidation</li>\r\n<li>Complete Export Documentation</li>\r\n<li>Hazardous Materials</li>\r\n<li>Packing/Crating/Container Loading</li>\r\n<li>Project Cargo Coordin</li>\r\n</ul>\r\n<p><br /><br /><br /><br /><br /></p>",
+            "summery_content": "Sea freight is the choice for large / heavy and bulky international shipments. HAMD offers a full range of ocean freight services under one roof. s. HAMD Customers will also benefit from flexible service at short notice, competitive pricing and quality service."
+        }
+    },
+    {
+        "model": "web.service",
+        "pk": 2,
+        "fields": {
+            "service_image": "service/air_freight.jpg",
+            "service_title": "AIR FREIGHT",
+            "service_description": "<p>Due to the sensitivity and time pressures involved in airfreight, HAM D shipping develops comprehensive airfreight service plans tailored to meet our customers'specific requirements. This is accomplished by learning our customer's objectives with regards to their internal and external requirements.Sensitive and valuable goods are often subject to extreme time pressures and deadlines for everyone involved. Therefore, our Airfreight Department develops a customized service plan for each customer,and then implements our required operational handling procedures to ensure a high quality service.Our team of Air Freight professionals follow through on each and every shipments so that our customers can be assured of real-time status reports on all import and export air freight shipments at all times.For oversize cargo transportation by air, we provide professional know-how related to the handling of part and full charter service including complete door to door<br />delivery logistics on a global scale.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>OUR AIR FREIGHT SERVICES INCLUDE:</strong></p>\r\n<p>Complete Logistics Programs (pick, pack, assembly,<br />warehousing, documentation and handling) for:<br />Hazardous Cargo<br />Live Stock Cargo<br />AOG &amp; Aerospace Cargo<br />Fashion &amp; Luxury Goods<br />Auto and Automotive part<br />Oil &amp; Gas Industry Cargo<br />Pharmaceutical Cargo<br />Precious Metal Cargo<br />Other Services:<br />Import/ Export Consol &amp; Deconsol<br />Pick, Pack, Assembly and Distribution<br />Split and Full Air Charter<br />Worldwide Door to Door Services<br />Sea/Air &amp; Road/Air Service<br />Customs Clearance Service<br />Pick-up and Delivery Se</p>",
+            "summery_content": "HAMD shipping develops comprehensive airfreight service plans tailored to meet our customers' specific requirements. Our Airfreight Department develops a customized service plan for each customer,and then implements our required operational handling procedures to ensure a high quality service."
+        }
+    },
+    {
+        "model": "web.service",
+        "pk": 3,
+        "fields": {
+            "service_image": "service/REEFER_CONTAINER_EXPORT.jpg",
+            "service_title": "REEFER CONTAINER EXPORT",
+            "service_description": "<p>Reefer transport is a specialized transport for cargo that is highly sensitive to the right temperature, as for example;<br />Meat, fish, fruits, vegetables, dairy products and flower bulbs. To maintain the quality of the products during the transport,<br />we pre-cool the container as per clients request before deliveringit to the loading address. The goods go from your door, at, the right temperature into the right temperature-controlled environment of the container. That means your goods arrive at the destination with the quality that you want them to have. Our hands on experience in handling hundreds of fresh produce containers every year, we provide our clients with regular equipment availability at a competitive tariff.</p>",
+            "summery_content": "Reefer transport is a specialized transport for cargo that is highly sensitive to the right temperature. To maintain the quality of the products during the transport, we pre-cool the container as per clients request before delivering it to the loading address."
+        }
+    },
+    {
+        "model": "web.service",
+        "pk": 4,
+        "fields": {
+            "service_image": "service/AUTOMOBILE_LOADING.jpg",
+            "service_title": "AUTOMOBILE LOADING",
+            "service_description": "<p>HAMD SHIPPING can take care of the export of your car(s) and other<br />vehicle(s) to Europe,US and other global destinations.<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; We offer:<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Picking up your car at your home/door HAMD can take care of pickup road transport if needed. As soon as we receive the required documents , we will process customs documentation and your vehicle will be loaded and exported as soon as possible.Your vehicle will be profesionally loaded into a container and braced for shipping. Depending on which shipping service you select, your car will be loaded alone or together with other vehicles in a container or driven onto a ship especially designed for vehicle transport (Ro-Ro). We are specialized</p>",
+            "summery_content": "HAMD SHIPPING can take care of the export of your car(s) and other vehicle(s) to Europe,US and other global destinations. We are specialized in handling premium cars like rolls royce, Porsche, ferrari etc."
+        }
+    },
+    {
+        "model": "web.service",
+        "pk": 5,
+        "fields": {
+            "service_image": "service/single-service-2.jpg",
+            "service_title": "CUSTOMS CLEARANCE",
+            "service_description": "<p>With updated Customs regulations and procedures, we handle clearance of shipments by Sea, Air and Land more efficiently.<br />We can clear all types of shipments, major or minor, for / from across the globe to the utmost satisfaction of clients due to our long years of expertise and wide exposure in this field. Our personnel are well cognizant with the challenging needs and<br />changing demands of today's business. They deal with your day today problems and formalities. With the required documents, our team of dedicated professionals get the customs clearance done and ensure end-to-end solution for exp</p>",
+            "summery_content": "With updated Customs regulations and procedures, we handle clearance of shipments by Sea, Air and Land more efficiently. We can clear all types of shipments, major or minor, for/from across the globe to the utmost satisfaction of clients due to our long years of expertise and wide exposure in this"
+        }
+    },
+    {
+        "model": "web.service",
+        "pk": 6,
+        "fields": {
+            "service_image": "service/EXPRESS_COURIER.jpg",
+            "service_title": "EXPRESS COURIER",
+            "service_description": "<p>We provide end to end service for your express shipments. Be it a document or an urgent item to be delivered in the far<br />east or western detinations, we provide reliable soultions to solve your problem. With our arrangemetns to ship the orders<br />with dhl,fedex,UPS-we take care of your orders with high priority. At the end, you will enjoy the same world class<br />service of those reliable companies at a great discount.</p>",
+            "summery_content": "We provide end to end service for your express shipments. Be it a document or an urgent item to be delivered in the far east or western detinations, we provide reliable soultions to solve your problem."
+        }
+    },
+    {
+        "model": "web.service",
+        "pk": 7,
+        "fields": {
+            "service_image": "service/CROSS_TRADE_SHIPMENT.jpg",
+            "service_title": "CROSS TRADE SHIPMENT",
+            "service_description": "<p>If you want to send your goods from an overseas origin to an overseas destination without connecting your home<br />country, still you need them to be shipped under your documents and BL/AWB to protect your business, we can provide our cross trade business solutions. With our expertise in the industry in handling these consignments that require high accuracy<br />and care to protect your sourcing, we are well equipped and trained to provide you the service you are looking for.<br />Please connect with us for more info</p>",
+            "summery_content": "With our expertise in cross trade shipment industry in handling the consignments that require high accuracy and care to protect sourcing, we are well equipped and trained to provide you the service you are looking for."
+        }
+    },
+    {
+        "model": "web.address",
+        "pk": 1,
+        "fields": {
+            "company_name": "H A M D S H I P P I N G FZ E L L C",
+            "company_address": "P O B O X 4 4 2 2 , A J M A N , U A E D U B A I O F F I C E : . A I R P O RT F R E E Z O N E D U B A",
+            "phone_number_1": "+ 971 6 74 2 4 2 97",
+            "phone_number_2": "+ 97 1 5 5 6 18 0 17",
+            "company_email": "Info@hamdshipping.com"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 1,
+        "fields": {
+            "name": "Ajmal",
+            "email": "secure.gedexo@gmail.com",
+            "subject": "fdgfd",
+            "message": "vhfjnjvb"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 3,
+        "fields": {
+            "name": "new",
+            "email": "secure.gedexo@gmail.com",
+            "subject": "vdghhs",
+            "message": "fghgfhfghj"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 4,
+        "fields": {
+            "name": " aswandh",
+            "email": "secure.gedexo@gmail.com",
+            "subject": "fdgfd",
+            "message": "fdgdfg"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 5,
+        "fields": {
+            "name": "Ajmal",
+            "email": "secure.gedexo@gmail.com",
+            "subject": "fdgfd",
+            "message": "rgtfhgf"
+        }
+    },
+    {
+        "model": "web.contact",
+        "pk": 6,
+        "fields": {
+            "name": "Ajmal",
+            "email": "secure.gedexo@gmail.com",
+            "subject": "fdgfd",
+            "message": "FGDGFDG"
+        }
+    }
+]

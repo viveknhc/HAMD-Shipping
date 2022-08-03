@@ -5,7 +5,7 @@
 	<div class="thm-container">
 		<h2>{{single_service.service_title}}</h2>
 		<ul class="breadcumb">
-			<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+			<li><a href="{% url 'web:index' %}"><i class="fa fa-home"></i> Home</a></li>
 			<li><span>{{single_service.service_title}}</span></li>
 		</ul>
 	</div>
@@ -14,23 +14,22 @@
 
 <section class="sec-padding single-service-page">
 	<div class="thm-container">
-		<div class="row">
-			<div class="col-md-12 pull-right tab-content">
-				<div class="tab-pane fade in active" id="ocean">
-					<div class="image-box clearfix">
-						<img src="{{single_service.service_image.url}}" alt="Awesome Image"/>
-						<img src="{{single_service.service_image.url}}" alt="Awesome Image" class="pull-right" />
-					</div>
-					<div class="sec-title">
-						<h2><span>{{single_service.service_title}}</span></h2>
-						<p>{{single_service.service_description|safe}}</p>
-						
-					</div>
-					
-				</div>
-			</div>
+		
+<div class="row">
+	<div class="col-md-6 col-lg-6">
+		<div class="image-box clearfix">
+			<img class="servicedetails" src="{{single_service.service_image.url}}" alt="Awesome Image" />
+
 		</div>
+	</div>
+	<div class="col-md-6 col-lg-6 sec-title">
+		<h2><span>{{single_service.service_title}}</span></h2>
+		<p>{{single_service.service_description|safe}}</p>
+	</div>
 	</div>
 </section>
 
+
+
+	
 {% endblock %}

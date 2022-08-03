@@ -1,5 +1,5 @@
 {% load static %}
-<section class="our-client sec-padding">
+<!-- <section class="our-client sec-padding">
 	<div class="thm-container">
 		<div class="sec-title">
 			<h2><span>our clients</span></h2>
@@ -14,14 +14,14 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
-<section class="footer-top">
+<section class="footer-top aboutfooter">
 	<div class="thm-container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="col-md-6">
-					<h3>Logistic and cargo</h3>
+					<h3>HAMD Shipping</h3>
 					<p>Contact us now to get quote for all your global <br>shipping and cargo need.</p>
 				</div>
 				<div class="col-md-6">
@@ -38,9 +38,13 @@
 		<div class="row">
 			<div class="col-md-3 col-sm-6 footer-widget">
 				<div class="about-widget">
-					<a href="#"><img src="images/footer-logo.png" alt="Awesome Image"/></a>
-					<p>Lorem ipsum dolor sit amet, consecte- tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-					<a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
+					<a href="#"><img src="{% static 'images/whitelogo.png' %}" alt="Awesome Image"/></a>
+					<p>Hamd Shipping is a logistics company located in the
+						United Arab Emirates. We truly believe that, our
+						customers deserve more transparency,no hidden
+						charges and more flexible approach while dealing
+						with their freight forwarder.</p>
+					<a href="{% url 'web:about' %}">Read More <i class="fa fa-angle-double-right"></i></a>
 					<ul class="social">
 						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -55,12 +59,12 @@
 						<h3><span>Our Services</span></h3>
 					</div>
 					<ul class="link-list">
-						<li><a href="#">Sea Freight</a></li>
-						<li><a href="#">Road Transportation</a></li>
-						<li><a href="#">Air Freight</a></li>
-						<li><a href="#">Railway Logistics</a></li>
-						<li><a href="#">Packaging & Storage</a></li>
-						<li><a href="#">Warehousing</a></li>
+						<li><a href="{% url 'web:service' %}">Sea Freight</a></li>
+						<li><a href="{% url 'web:service' %}">Road Transportation</a></li>
+						<li><a href="{% url 'web:service' %}">Air Freight</a></li>
+						<li><a href="{% url 'web:service' %}">Railway Logistics</a></li>
+						<li><a href="{% url 'web:service' %}">Packaging & Storage</a></li>
+						<li><a href="{% url 'web:service' %}">Warehousing</a></li>
 					</ul>
 				</div>
 			</div>
@@ -69,16 +73,16 @@
 					<h3><span>Quick Links</span></h3>
 				</div>
 				<ul class="link-list">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Our Services</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">News</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li><a href="{% url 'web:index' %}">Home</a></li>
+					<li><a href="{% url 'web:service' %}">Our Services</a></li>
+					<li><a href="{% url 'web:about' %}">About Us</a></li>
+					
+					<li><a href="{% url 'web:contact' %}">Contact Us</a></li>
 				</ul>
 			</div>
 			<div class="col-md-4 col-sm-6 footer-widget">
 				<div class="title">
-					<h3><span>Quick Links</span></h3>
+					<h3><span>Address</span></h3>
 				</div>
 				<ul class="contact-infos">
 					<li>
@@ -86,7 +90,8 @@
 							<i class="fa fa-map-marker"></i>
 						</div>
 						<div class="text-box">
-							<p><b>Logis Cargo Ltd.</b> <br> 42B, Tailstoi Town 5248 MT, Australia</p>
+							<p><b>HAMD Shipping</b> <br>PO BOX 4422 , AJMAN , UAE
+								DUBAIOFFICE :AIR PORT FREE ZONE DUBAI</p>
 						</div>
 					</li>
 					<li>
@@ -94,7 +99,7 @@
 							<i class="fa fa-phone"></i>
 						</div>
 						<div class="text-box">
-							<p>+ 01865 524 8503  /  1254 954 7854</p>
+							<p>+97167424297  /  +971556180178</p>
 						</div>
 					</li>
 					<li>
@@ -102,17 +107,17 @@
 							<i class="fa fa-envelope-o"></i>
 						</div>
 						<div class="text-box">
-							<p>contact@logiccargo.com</p>
+							<p>Info@hamdshipping.com</p>
 						</div>
 					</li>
-					<li>
+					<!-- <li>
 						<div class="icon-box">
 							<i class="icon icon-Timer"></i>
 						</div>
 						<div class="text-box">
 							<p>Monday - Friday : 8.00 - 19.00</p>
 						</div>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</div>

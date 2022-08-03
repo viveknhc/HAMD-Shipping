@@ -18,8 +18,8 @@
 <header id="header3" class="stricky">
 	<div class="thm-container clearfix">
 		<div class="logo pull-left">
-			<a href="index.html">
-				<img src="{% static 'images/logo.png' %}" alt="">
+			<a href="{% url 'web:index' %}">
+				<img class="logoimage" src="{% static 'images/logo.png' %}" alt="">
 			</a>
 		</div>
 		<div class="nav-holder pull-right">
@@ -31,8 +31,8 @@
 				<ul class="nav">
 					<li><a href="{% url 'web:index' %}">Home</a></li>
 					<li><a href="{% url 'web:service' %}">Service</a></li>
-                    <li><a href="contact.html">Category</a></li>
-					<li><a href="contact.html">Gallery</a></li>
+                    <!-- <li><a href="contact.html">Category</a></li>
+					<li><a href="contact.html">Gallery</a></li> -->
                     <li><a href="{% url 'web:about' %}">About</a></li>
 					<li><a href="{% url 'web:contact' %}">contact</a></li>
 				</ul>

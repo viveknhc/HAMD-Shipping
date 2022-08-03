@@ -7,6 +7,13 @@ def index(request):
     banner = Banner.objects.filter().order_by('-id')
     about = About.objects.all()
     testimonial = Testimonial.objects.all()
+    if request.method == 'POST':
+        name = request.POST['name']
+        email = request.POST['email']
+        sub = request.POST['subject']
+        msg = request.POST['message']
+        object = Contact(name=name,email=email,subject=sub,message=msg)
+        object.save()
     context = {
         "testimonial":testimonial,
         "banner":banner,
