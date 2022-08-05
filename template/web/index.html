@@ -2,11 +2,12 @@
 {% load static %}
 {% block content %}
 {% for banner in banner|slice:":1" %}
+<a href=""></a>
 <section class="text-rotator-banner thm-banner-wrapper style-two" style="background-image: url({{ banner.Banner_image.url }});background-position: center left;">
 	<div class="thm-container">
 		<div class="col-lg-6 col-md-8 pull-right caption-wrapper">
 			<div class="caption-h1">
-				WE PROVIDE
+				WE PROVIDE <br>
 				<div class="type-wrap">
                 	<div class="typed-strings">
                     	<p>{{ banner.Banner_title }}</p>
@@ -41,7 +42,7 @@
 			<div class="col-md-6 col-lg-6">
 				<div class="welcome-single-services">
 					<div class="img-box">
-						<img src="{% static 'images/welcome-services/1.jpg' %}" alt="">
+						<img src="{% static 'images/welcome-services/air.jpg' %}" alt="">
 					</div>
 					<div class="text-box">
 						<div class="content">
@@ -54,7 +55,7 @@
 			<div class="col-md-6 col-lg-6">
 				<div class="welcome-single-services">
 					<div class="img-box">
-						<img src="{% static 'images/welcome-services/2.jpg' %}" alt="">
+						<img src="{% static 'images/welcome-services/sea.jpg' %}" alt="">
 					</div>
 					<div class="text-box">
 						<div class="content">
@@ -67,7 +68,7 @@
 			<div class="col-md-6 col-lg-6">
 				<div class="welcome-single-services">
 					<div class="img-box">
-						<img src="{% static 'images/welcome-services/3.jpg' %}" alt="">
+						<img src="{% static 'images/welcome-services/CROSS TRADE.jpg' %}" alt="">
 					</div>
 					<div class="text-box">
 						<div class="content">
@@ -82,7 +83,7 @@
 			<div class="col-md-6 col-lg-6">
 				<div class="welcome-single-services">
 					<div class="img-box">
-						<img src="{% static 'images/welcome-services/4.jpg' %}" alt="">
+						<img src="{% static 'images/welcome-services/EXPRESS COURIER.jpg' %}" alt="">
 					</div>
 					<div class="text-box">
 						<div class="content">
@@ -115,7 +116,7 @@
 				<div class="call-to-action-text">
 					<h3>Reach your destination <br>100% sure and safe</h3>
 					<p>We believe our customers deserve greater transparency in their dealings with their freight forwarders, no hidden charges, and a more flexible approach. We are driven by highly experienced industry professionals who find passion in their work.</p>
-					<a href="{% url 'web:service' %}" class="thm-btn">View services <i class="fa fa-arrow-circle-right"></i></a>
+					<a href="{% url 'web:service' %}" class="thm-btn destination">View services <i class="fa fa-arrow-circle-right"></i></a>
 				</div>
 			</div>
 		</div>

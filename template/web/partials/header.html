@@ -1,24 +1,27 @@
 {% load static %}
 <section id="top-bar">
 	<div class="thm-container clearfix">
+		{% for address in address %}
 		<div class="phone pull-left">
-			<p>Call Us Now: <span>+971 6 742 4297</span></p>
+		
+			<p>Call Us Now: <span>{{ address.phone_number_1 }}</span></p>
 		</div>
 		<div class="top-contact-info pull-right">
 			<ul>
-				<li><i class="fa fa-map-marker"></i>PO BOX 4422,AJMAN,UAE DUBAI OFFICE:. AIRPORT FREEZONE DUBAI</li>
-				<li><i class="fa fa-envelope"></i>  info@hamdshipping.com</li>
+				<li class="headercontent"><i class="fa fa-map-marker"></i>{{ address.company_address }}</li>
+				<li class="headercontent"><i class="fa fa-envelope"></i>  {{ address.company_email }}</li>
 			</ul>
 
             
 		</div>
+		{% endfor %}
 	</div>
 </section>
 
 <header id="header3" class="stricky">
 	<div class="thm-container clearfix">
 		<div class="logo pull-left">
-			<a href="{% url 'web:index' %}">
+			<a href="{% url 'web:index' %}/">
 				<img class="logoimage" src="{% static 'images/logo.png' %}" alt="">
 			</a>
 		</div>
