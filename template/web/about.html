@@ -14,7 +14,7 @@
 
 
 <section class="featured-services about-page">
-	{% for about in about %}
+	{% for about in about|slice:":1"  %}
 	<div class="thm-container">
 		<div class="sec-title">
 			<h2><span>Who We Are</span></h2>

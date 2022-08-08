@@ -5,8 +5,9 @@ from .models import *
 
 def index(request):
     banner = Banner.objects.filter().order_by('-id')
-    about = About.objects.all()
+    about = About.objects.filter().order_by('-id')
     testimonial = Testimonial.objects.all()
+    service = Service.objects.all()
     if request.method == 'POST':
         name = request.POST['name']
         email = request.POST['email']
@@ -18,6 +19,7 @@ def index(request):
         "testimonial":testimonial,
         "banner":banner,
         "about":about,
+        "service":service,
         
     }
     return render(request,'web/index.html',context)
@@ -30,7 +32,7 @@ def service(request):
     return render(request,'web/service.html',context)
 
 def about(request):
-    about = About.objects.all()
+    about = About.objects.filter().order_by('-id')
     context = {
         "about":about
     }

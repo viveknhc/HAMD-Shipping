@@ -4,11 +4,11 @@
 		{% for address in address %}
 		<div class="phone pull-left">
 		
-			<p>Call Us Now: <span>{{ address.phone_number_1 }}</span></p>
+			<p>Call Us Now: <a href="tel:{{ address.phone_number_1 }}"><span class="numberstyle">{{ address.phone_number_1 }}</span></a></p>
 		</div>
 		<div class="top-contact-info pull-right">
 			<ul>
-				<li class="headercontent"><i class="fa fa-map-marker"></i>{{ address.company_address }}</li>
+				<!-- <li class="headercontent"><i class="fa fa-map-marker"></i>{{ address.company_address }}</li> -->
 				<li class="headercontent"><i class="fa fa-envelope"></i>  {{ address.company_email }}</li>
 			</ul>
 
